@@ -1,0 +1,36 @@
+{
+  "name": "snehal_cakes_studio",
+  "version": "1.0.0",
+  "description": "E-Connerce cake shop app using MERN stack",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "generate-toc": "markdown-toc -i readme.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shashant Pandit",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "concurrently": "^9.1.2",
+    "markdown-toc": "^1.2.0",
+    "nodemon": "^3.1.9"
+  }
+}
