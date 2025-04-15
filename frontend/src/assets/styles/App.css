@@ -1,0 +1,247 @@
+/* Navbar CSs start */
+
+.navbar-toggler{
+  border: none;
+}
+
+.bg-body-tertiary{
+  background-color: #0C0420!important;
+  color: #D391B0!important;
+
+}
+
+.brandLogo{
+  width: 150px;
+}
+
+.nav-item .nav-link{
+  color: #ffffff;
+}
+
+.nav-item .nav-link:hover{
+  color: #f1f1f1!important;
+}
+
+/* HeaderSearch box css start */
+.search-box {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+.input-search {
+
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color:  rgba(#0C0420, var(--bs-bg-opacity)) !important;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+.input-search::placeholder {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.btn-search svg{
+    vertical-align: baseline;
+}
+.btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: #ffffff;
+    background-color: transparent;
+    pointer-events: painted;
+}
+
+.btn-search:hover{
+    opacity: 0.8;
+}
+
+.btn-search:focus~.input-search {
+    width: 250px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid #ffffff;
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.btn-search:hover,
+.btn-search:focus,
+.btn-search:checked{
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 25px;
+    
+}
+
+.input-search::-webkit-input-placeholder {
+    font-size: 15px;
+    font-weight: normal;
+
+}
+.input-search:focus {
+    width: 250px;
+    border-radius: 25px;
+    background-color: transparent;
+    border-bottom: 1px solid #333;
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+    color: #333;
+}
+
+/* HeaderSearch box css end */
+
+
+/* Footer css */
+
+.footerSocialLinks{
+  /* background-color: #ffffff; */
+  color: var(--bs-nav-link-color);
+  margin: 0 10px;
+}
+
+.footerSocialLinks:hover{
+  color: lightpink;
+}
+
+p .footerQuickLinks{
+  margin-bottom: 5px;
+}
+
+.footer-outer-container{
+  border-top: 2px solid var(--bs-nav-link-color);
+}
+
+.footerConnectInfo{
+  display: block;
+  text-decoration: none;
+  color: var(--bs-nav-link-color);
+  margin: 5px 0;
+
+}
+
+.footerConnectInfo :hover{
+  color: lightpink;
+  text-decoration: underline;
+}
+
+.footer-company-name a{
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.footer-company-name a:hover{
+  color: lightpink;
+}
+
+.footer-company-name{
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+
+.footer-main{
+  background-color: #0C0420;
+  color: #f1f1f1;
+}
+
+
+/* product */
+
+.rating span svg{
+  color: #FFDF00;
+}
+
+.rating-text{
+  color: #333333;
+}
+
+.product-title strong, .product-title-name{
+  color: #984880;
+}
+
+.product-title-link{
+  text-decoration: none;
+}
+
+
+
+.btn-pinkColor{
+  background-color: #6E2B62!important;
+  border: none;
+  color: #ffffff!important;
+  padding: 6px 30px 10px;
+  border-radius: 25px;
+
+}
+
+/* Tagline css */
+.home-tagline{
+  background-color: #0C0420!important;
+  padding: 50px 0;
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.home-tagline-col2{
+  margin: auto 0;
+}
+
+/* Contact form css */
+.contact-form-link{
+  color: #333;
+}
+
+
+.contact-form-link:hover{
+  color: #FC8EAC!important;
+}
+
+/* Home page carousel css */
+.carouselItems{
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu-profile {
+  top: 100%;
+  right: 0!important
+}
+
+.checkoutNavLink{
+  color: #333!important;
+}
+.checkoutNavLink:hover,
+.checkoutNavLink:focus{
+  color: #333!important;
+  opacity: 0.8!important;
+}
+
+.checkoutNavLink .disabled{
+  color: #333!important;
+  opacity: 0.7!important;
+}
+
