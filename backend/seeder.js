@@ -5,13 +5,11 @@ import colors from 'colors';
 import users from './data/users.js';
 import products from './data/products.js';
 import messages from './data/messages.js';
-import blogs from './data/blogs.js';
 
 import User from './models/userModel.js';
 import Product from './models/productModel.js';
 import Order from './models/orderModel.js';
 import Message from './models/messageModel.js';
-import Blog from './models/blogModel.js';
 
 import connectDB from './config/db.js';
 
@@ -25,7 +23,6 @@ const importData = async () => {
     await Product.deleteMany();
     await User.deleteMany();
     await Message.deleteMany();
-    await Blog.deleteMany();
 
     const createdUsers = await User.insertMany(users);
 
@@ -39,13 +36,8 @@ const importData = async () => {
       return { ...message, user: adminUser };
     });
 
-    const sampleBlogs = blogs.map((blog) => {
-      return { ...blog, user: adminUser };
-    });
-
     await Product.insertMany(sampleProducts);
     await Message.insertMany(sampleMessages);
-    await Blog.insertMany(sampleBlogs);
 
 
     console.log('Data Imported!'.green.inverse);
@@ -62,7 +54,6 @@ const destroyData = async () => {
     await Product.deleteMany();
     await User.deleteMany();
     await Message.deleteMany();
-    await Blog.deleteMany();
 
 
     console.log('Data Destroyed!'.red.inverse);

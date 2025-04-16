@@ -7,7 +7,6 @@ import connectDB from './config/db.js';
 import productRoutes from './routes/productRoutes.js';
 import userRoutes from './routes/userRoutes.js';
 import messageRoutes from './routes/messageRoutes.js';
-import blogRoutes from './routes/blogRoutes.js';
 
 
 import orderRoutes from './routes/orderRoutes.js';
@@ -27,7 +26,6 @@ app.use(cookieParser());
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/messages', messageRoutes);
-app.use('/api/blogs', blogRoutes);
 
 
 app.use('/api/orders', orderRoutes);

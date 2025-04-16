@@ -245,3 +245,7 @@ p .footerQuickLinks{
   opacity: 0.7!important;
 }
 
+
+.adminListProductImg{
+  width: 150px;
+}
