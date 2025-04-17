@@ -27,9 +27,6 @@ yarn-debug.log*
 yarn-error.log*
 
 frontend/build
-uploads/*png
-uploads/*jpg
-uploads/bin
 
 # API tests
 http
