@@ -8,24 +8,24 @@ const About = () => {
         <>
             <div className='about-us'>
                 <h1 className="card-title" style={{ fontWeight: "bold", letterSpacing: "2px", marginTop: "20px" }}>🎂 About Us</h1>
-                <Card style={{ padding: '20px', background:'transparent', border: 'none' }}>
-                <Row>
-                    <Col lg={6} className='my-2'>
-                        <Image src={aboutus} alt='about us' fluid className='about-us-img' style={{ borderRadius: '10px' }} />
-                    </Col>
-                    <Col lg={6} className='my-2'>
-                        <h5>Welcome to Snehal Cakes Studio – Where Every Cake Has a Story!</h5>
-                        <p>💡 At Snehal Cakes Studio, we believe that every celebration deserves a sweet touch. What started as a small home-kitchen passion has now grown into a full-fledged cake studio, delivering love and joy in the form of delicious, 100% vegetarian cakes across Ballarpur and Chandrapur.</p>
-                        <p>🚀 We specialize in custom-designed cakes, made-to-order occasion cakes, and delightful treats like cupcakes and jar cakes. Every creation is baked fresh with premium ingredients, handcrafted with care, and delivered with love.</p>
-                        <p>🤝 Whether you're celebrating a birthday, anniversary, wedding, baby shower, or simply want to surprise someone – we’ve got the perfect cake just for you.</p>
-{/*                         
+                <Card style={{ padding: '20px', background: 'transparent', border: 'none' }}>
+                    <Row>
+                        <Col lg={6} className='my-2'>
+                            <Image src={aboutus} alt='about us' fluid className='about-us-img' style={{ borderRadius: '10px' }} />
+                        </Col>
+                        <Col lg={6} className='my-2'>
+                            <h5>1Welcome to Snehal Cakes Studio – Where Every Cake Has a Story!</h5>
+                            <p>💡 At Snehal Cakes Studio, we believe that every celebration deserves a sweet touch. What started as a small home-kitchen passion has now grown into a full-fledged cake studio, delivering love and joy in the form of delicious, 100% vegetarian cakes across Ballarpur and Chandrapur.</p>
+                            <p>🚀 We specialize in custom-designed cakes, made-to-order occasion cakes, and delightful treats like cupcakes and jar cakes. Every creation is baked fresh with premium ingredients, handcrafted with care, and delivered with love.</p>
+                            <p>🤝 Whether you're celebrating a birthday, anniversary, wedding, baby shower, or simply want to surprise someone – we’ve got the perfect cake just for you.</p>
+                            {/*                         
                         
                         <h6><strong>✅ Core Values</strong></h6>
                         <h6><strong>💡 Innovation</strong><small> – We embrace creativity & technology to build future-ready solutions.</small></h6>
                         <h6><strong>🤝 Customer-Centric</strong><small> – Your success is our priority. We tailor solutions to your needs.</small></h6>
                         <h6><strong>🚀 Scalable Growth</strong><small> – We design solutions that grow with your business.</small></h6> */}
-                        
-                    </Col>
+
+                        </Col>
                     </Row>
                     <br />
                     <Row>
@@ -48,8 +48,8 @@ const About = () => {
                             <p>Behind every cake is a story — and we’re honored to be a part of yours. Whether it’s a last-minute surprise or a planned party centerpiece, we promise to deliver more than just a dessert — we deliver emotion.</p>
                         </Col>
                     </Row>
-                </Card>    
-            </div>  
+                </Card>
+            </div>
         </>
     )
 }
